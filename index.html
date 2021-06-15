@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bukan Instagram - Login</title>
+    <meta name="google-signin-scope" content="profile email" />
+    <meta name="google-signin-client_id" content="75657642255-7l7mc4343vp2stqv7fum43s4m912nto2.apps.googleusercontent.com" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="top">
+          <div class="logo">
+            <img src="assets/image/rectangle-logo.png" alt="instagram" style="width: 175px" />
+          </div>
+          <div class="or">
+            <div class="line"></div>
+            <p>Login</p>
+            <div class="line"></div>
+          </div>
+          <div class="dif">
+            <div class="gs">
+              <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+            </div>
+            <div class="or logged onlylogged">
+              <div class="line"></div>
+              <p><a href="#" onclick="gotoDashboard();">Dashboard</a></p>
+              <div class="line"></div>
+            </div>
+            <div class="or logged onlylogged">
+              <div class="line"></div>
+              <p><a href="#" onclick="onSignOut();">Sign Out</a></p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div>&nbsp;</div>
+        <div class="apps">
+          <p>Ayo belajar lagi dan buat aplikasi mobilenya!<br />Sementara tidak ditemukan pada:</p>
+          <div class="icons">
+            <a href="#"><img src="assets/image/appstore.png" alt="appstrore" /></a>
+            <a href="#"><img src="assets/image/googleplay.png" alt="googleplay" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="links">
+          <ul>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SUPPORT</a></li>
+            <li><a href="#">PRESS</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">JOBS</a></li>
+            <li><a href="#">PRIVACY</a></li>
+            <li><a href="#">TERMS</a></li>
+            <li><a href="#">DIRECTORY</a></li>
+            <li><a href="#">PROFILES</a></li>
+            <li><a href="#">HASHTAGS</a></li>
+            <li><a href="#">LANGUAGE</a></li>
+          </ul>
+        </div>
+        <div class="copyright">© 2021 BUKAN INSTAGRAM</div>
+      </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
